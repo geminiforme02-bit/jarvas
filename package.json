@@ -1,0 +1,13 @@
+{
+  "name": "physio-harpreet-website",
+  "version": "1.0.0",
+  "description": "Website for Physio Harpreet physiotherapy & rehabilitation clinic",
+  "private": true,
+  "scripts": {
+    "start": "node serve.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.1.0",
+    "three": "^0.184.0"
+  }
+}
