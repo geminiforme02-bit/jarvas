@@ -1,8 +1,9 @@
-# Physio Harpreet — Clinic Website
+# CosMend Medicos & Physiotherapy Centre — Website
 
-A modern, single-page website for a physiotherapy & rehabilitation clinic, featuring
-3D animated hero shapes (Three.js), rotating 3D service icons, scroll reveal
-animations, and mouse-tilt effects on cards.
+A modern, single-page website for Dr. Harpreet Singh's physiotherapy &
+rehabilitation clinic in Dasuya, Punjab. Features 3D animated hero shapes
+(Three.js), rotating 3D service icons, scroll reveal animations, and
+mouse-tilt effects on cards.
 
 ## Run locally
 
@@ -20,27 +21,27 @@ Then open http://localhost:3000
 - CSS 3D transforms for the spinning service icon cubes
 - Google Fonts (Poppins + Inter)
 
-## ⚠️ Placeholder content to replace
+## Content sourced from the clinic flyer
 
-This site was built with realistic placeholder details since the Instagram
-profile (`@physio._harpreet`) couldn't be scraped automatically. Search for and
-replace the following before going live:
+- Clinic: CosMend Medicos & Physiotherapy Centre
+- Physiotherapist: Dr. Harpreet Singh
+- Phone: +91 78885 21507
+- Address: Panwan Road, Dasuya, Punjab
+- Instagram: @physio._harpreet
+- Services: Back Pain, Neck Pain & Slip Disc Therapy, Sports Injury
+  Rehabilitation, Post-Surgery Physiotherapy, Paralysis Treatment,
+  Arthritis & Joint Pain Care, Muscle Strengthening Exercises,
+  Electrotherapy (IFT, TENS, Ultrasound), Home Visits Available
+- Doctor's photo: cropped from the flyer (`assets/dr-harpreet.jpg`)
+
+## ⚠️ Still placeholder — confirm before going fully live
 
 | Item | Current placeholder | Found in |
 |---|---|---|
-| Clinic name | "Physio Harpreet" | `index.html` (logo, title, footer) |
-| Physiotherapist name | "Dr. Harpreet" | `index.html` (About section) |
-| Phone number | `+91 98765 43210` | `index.html` (multiple `tel:` links + text) |
-| WhatsApp number | `919876543210` | `index.html` (`wa.me` links) |
-| Email | `info@physioharpreet.com` | `index.html` (Contact + footer) |
-| Address | "123 Wellness Avenue, Model Town, Ludhiana, Punjab 141002" | `index.html` (Contact + footer + map) |
-| Opening hours | Mon–Sat 9–1 & 5–8, Sun closed | `index.html` (Contact section) |
-| Services list / descriptions | 6 generic services | `index.html` (Services section) |
-| Bio / experience stats | "10+ years", "5000+ patients", "4.9★" | `index.html` (Hero + About) |
-| Photo of physiotherapist | Emoji placeholder | `index.html` `.img-placeholder` / `css/style.css` |
-| Testimonials | 3 generic reviews | `index.html` (Testimonials section) |
-| Map | Generic "Ludhiana, Punjab" embed | `index.html` (Contact section iframe) |
-| Contact form submission | Front-end only, no backend | `index.html` (Contact form) — wire up to Formspree/email/CRM |
+| Clinic hours | Mon–Sat 9–1 & 5–8, Sun closed | `index.html` Contact section |
+| Testimonials | 3 generic reviews | `index.html` Testimonials section |
+| Exact address / pincode / landmark | "Panwan Road, Dasuya, Punjab" (no pincode) | `index.html` Contact + footer + map |
+| Email address | none included (not on flyer) | add if available |
+| Contact form submission | Front-end only, no backend | `index.html` Contact form — wire up to Formspree/email/CRM |
 
-Once you confirm the real details (name, phone, address, hours, services,
-photos, etc.), these can be swapped in directly.
+Once you confirm these details, they can be swapped in directly.

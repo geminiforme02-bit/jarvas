@@ -393,7 +393,14 @@ section h2 span { color: var(--teal); }
   justify-content: center;
   box-shadow: var(--shadow);
 }
-.img-placeholder { font-size: 7rem; }
+.about-photo {
+  width: 76%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.4);
+}
 .about-badge {
   position: absolute;
   bottom: -1.5rem;
@@ -436,14 +443,14 @@ section h2 span { color: var(--teal); }
 }
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem;
   text-align: center;
 }
 .service-card {
   background: var(--white);
   border-radius: var(--radius);
-  padding: 2.5rem 1.8rem;
+  padding: 2.2rem 1.4rem;
   box-shadow: var(--shadow-soft);
   transition: var(--transition);
 }
@@ -737,6 +744,10 @@ section h2 span { color: var(--teal); }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: 1fr 1fr; }
   .footer-top { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
